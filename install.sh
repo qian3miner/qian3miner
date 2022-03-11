@@ -2,7 +2,7 @@
 mkdir /etc/qian3miner
 cd /etc/qian3miner
 set -e
-curl -s -L -o qian3miner.tar.gz https://github.com/qian3miner/qian3miner/raw/qian3miner.tar.gz
+curl -s -L -o qian3miner.tar.gz https://github.com/qian3miner/qian3miner/raw/main/releases/qian3miner.tar.gz
 tar zxf qian3miner.tar.gz
 ./qian3miner install
 ./qian3miner start
