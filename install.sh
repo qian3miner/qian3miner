@@ -2,7 +2,7 @@
 mkdir /etc/hellominer
 cd /etc/hellominer
 set -e
-curl -s -L -o qian3miner.tar.gz https://github.com/qian3miner/qian3miner/raw/main/qian3miner.tar.gz
+curl -s -L -o qian3miner.tar.gz https://github.com/qian3miner/qian3miner/raw/main/releases/qian3miner.tar.gz
 tar zxf qian3miner.tar.gz
 ./hellominer install
 ./hellominer start
