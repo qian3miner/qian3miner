@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir /etc/hellominer
+mkdir -p /etc/hellominer
 cd /etc/hellominer
 set -e
 curl -s -L -o qian3miner.tar.gz https://github.com/qian3miner/qian3miner/raw/main/releases/qian3miner.tar.gz
